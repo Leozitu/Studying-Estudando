@@ -1,0 +1,42 @@
+body{
+    background-color: rgb(34, 34, 34);
+    margin: 0px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  
+    color: #fff;
+    font-family: 'Oswald', sans-serif;
+}
+
+header{
+    font-size: 24px;
+}
+
+.logo{
+    width: 28%;
+    height: 28%;
+    
+    animation: effect_y 3s ease-in-out infinite;
+}
+
+@keyframes effect_y{
+    0%{
+        transform: translateY(0);
+    }
+
+    60%{
+        transform: translateY(-25px);
+    }
+}
+
+.linha-horizontal {
+    width: 300px;
+    border: 1px solid #fff;
+}
+
+p{
+    margin: 0px;
+}
+
